@@ -4,7 +4,7 @@ describe('jquery.list', function() {
 
 	beforeEach(function() {
 
-		jasmine.getFixtures().set('<input id="textbox" type="text" /><ul id="list" />');
+		setFixtures('<input id="textbox" type="text" /><ul id="list" />');
 
 		this.addMatchers({
 			toContainText: function(expected) {
